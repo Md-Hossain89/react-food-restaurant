@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-4 footer-col">
             <div className="footer_detail">
-              <a href="/" className="footer-logo">
+              <a href="#" onClick={(e) => e.preventDefault()} className="footer-logo">
                 Fresh Fare
               </a>
               <div className="footer_social">
